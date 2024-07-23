@@ -16,13 +16,13 @@ A simple project using vanilla HTML and JavaScript to use prompt engineering wit
 1. Clone the repository
 
 ```
-git clone https://github.com/user-name/project
+git clone https://github.com/brukmula/multipleAPI
 ```
 
 1. Navigate to the project directory
 
 ```
-cd the_project
+cd multipleAPI
 ```
 
 1. Install the Dependencies
@@ -47,13 +47,13 @@ python app.py
 
 ### Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Choose GPT Model 
+- Create Prompt
+- Send Message
 
 ### **License**
 
-This project is licensed under the Cherith License.
+This project is licensed under the [''] License.
 
 ### **Contact**
 
