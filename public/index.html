@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI API Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Select OpenAI Model</h1>
+    <form id="aiForm">
+        <label for="api">Choose a Model:</label>
+        <select id="api" name="api">
+            <option value="gpt-4">GPT 4</option>
+            <option value="gpt-4o">GPT 4o</option>
+            <option value="gpt-3.5-turbo">GPT 3.5</option>
+        </select>
+
+        <label for="prompt">Prompt: </label>
+        <textarea id="prompt" name="prompt" rows="4" cols="25"></textarea>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+    <div id="response"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
