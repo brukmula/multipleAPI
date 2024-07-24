@@ -11,6 +11,16 @@ A simple project using vanilla HTML and JavaScript to use prompt engineering wit
 - License
 - Contact
 
+### Before getting started
+Before you get started, make sure you have node.js installed on your computer. 
+You can downloaded here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+You will also need to make sure you have access to OpenAI's API.
+https://platform.openai.com/api-keys
+
+This project sets the API Key as an environmental variable.
+https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html
+
 ### Installation
 
 1. Clone the repository
@@ -29,34 +39,27 @@ cd multipleAPI
 
 ```
 npm install 
-# or 
-pip install -r requirements.txt
 ```
 
 ### Usage
 
-Instructions and examples on how to use the project.
+Once you have everything installed, you can type this into your terminal: 
 
 ```bash
-npm start 
-
-# or 
-
-python app.py
+node server.js
 ```
+
+This will launch the app onto your local device at the address: http://localhost:3000
 
 ### Features
 
-- Choose GPT Model 
-- Create Prompt
-- Send Message
-
-### **License**
-
-This project is licensed under the [''] License.
-
-### **Contact**
-
-Your Name - [@YourTwitterHandle](https://twitter.com/YourTwitterHandle) - YourEmail@example.com
-
-Project Link: https://github.com/your-username/your-project
+- #### Choose GPT Model 
+    You can select which model of ChatGPT you want to interact with without adjusting any code.
+---
+- #### Create Prompt
+  Adjust the prompt that ChatGPT receives by simply entering the desired prompt into the 'prompt' box.
+---
+- ### Send Message
+  Once you have selected your model and prompt, go ahead and ask ChatGPT something! Different models have different 
+  wait times.
+---

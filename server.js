@@ -3,7 +3,7 @@ const OpenAI = require('openai');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 const openai = new OpenAI();
 
