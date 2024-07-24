@@ -2,15 +2,6 @@
 
 A simple project using vanilla HTML and JavaScript to use prompt engineering with OpenAI API.
 
-## Table of Contents
-
-- Installation
-- Usage
-- Features
-- Contributing
-- License
-- Contact
-
 ## Before getting started
 Before you get started, make sure you have node.js installed on your computer. 
 You can download it here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
@@ -31,7 +22,7 @@ git clone https://github.com/brukmula/multipleAPI
 
 1. Navigate to the project directory
 
-```
+```terminal
 cd multipleAPI
 ```
 
