@@ -1,8 +1,8 @@
-## GPT Prompt Engineer
+# GPT Prompt Engineer
 
 A simple project using vanilla HTML and JavaScript to use prompt engineering with OpenAI API.
 
-### Table of Contents
+## Table of Contents
 
 - Installation
 - Usage
@@ -11,9 +11,9 @@ A simple project using vanilla HTML and JavaScript to use prompt engineering wit
 - License
 - Contact
 
-### Before getting started
+## Before getting started
 Before you get started, make sure you have node.js installed on your computer. 
-You can downloaded here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+You can download it here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 You will also need to make sure you have access to OpenAI's API.
 https://platform.openai.com/api-keys
@@ -21,7 +21,7 @@ https://platform.openai.com/api-keys
 This project sets the API Key as an environmental variable.
 https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html
 
-### Installation
+## Installation
 
 1. Clone the repository
 
@@ -41,7 +41,7 @@ cd multipleAPI
 npm install 
 ```
 
-### Usage
+## Usage
 
 Once you have everything installed, you can type this into your terminal: 
 
@@ -51,12 +51,12 @@ node server.js
 
 This will launch the app onto your local device at the address: http://localhost:3000
 
-### Features
+## Features
 
-- #### Choose GPT Model 
+- ### Choose GPT Model 
     You can select which model of ChatGPT you want to interact with without adjusting any code.
 ---
-- #### Create Prompt
+- ### Create Prompt
   Adjust the prompt that ChatGPT receives by simply entering the desired prompt into the 'prompt' box.
 ---
 - ### Send Message
