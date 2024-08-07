@@ -20,13 +20,13 @@ https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html
 git clone https://github.com/brukmula/multipleAPI
 ```
 
-1. Navigate to the project directory
+2. Navigate to the project directory
 
 ```terminal
 cd multipleAPI
 ```
 
-1. Install the Dependencies
+3. Install the Dependencies
 
 ```
 npm install 

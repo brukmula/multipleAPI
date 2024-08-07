@@ -19,6 +19,7 @@ app.post('/api/chat', async (req, res) => {
 
     let reply;
 
+    // Based on the user's selections, call ChatGPT
     const completion = await openai.chat.completions.create({
         messages: [
             { "role": "system", "content": prompt },
